@@ -1,0 +1,319 @@
+/* umumiy stillar*/ 
+
+*{
+  font-family: "Roboto", arial sans-serif;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.left{
+  width: 50%;
+  float: left;
+
+}
+
+.right{
+  width: 50%;
+  float: right;
+}
+
+.clear{
+  clear: both;
+}
+
+.primary_button{
+  display: inline-block;
+  padding: 15px 15px;
+  border-radius: 3px;
+  color: white;
+  background-color: rgb(88,145 ,103 );
+  text-decoration: none;
+  font-weight: 400;
+  margin: 2px;
+}
+
+.secondary_button{
+  display: inline-block;
+  padding: 15px 15px;
+  border-radius: 3px;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: 400;
+  margin: 2px;
+}
+
+/* Navbar styles*/
+
+nav{
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+
+.nav_link{
+  display: inline-block;
+  margin: 13px 25px;
+  
+}
+
+
+.nav_link a{
+  color: black;
+  text-decoration: none;
+  font-weight: bold ;
+    
+}
+
+.navbar_header{
+  color: black;
+  text-decoration: none;
+  
+}
+
+.navbar_header, .nav_links{
+  display: inline-block;
+}
+
+.nav_links{
+  float: right;
+}
+
+
+.nav_link:hover, .nav_link a:hover{
+  color: rgb(88,145 ,103 );
+}
+
+
+.nav_link.active a{
+  color:  rgb(88,145 ,103 );
+}
+
+/* home styles*/ 
+
+#home{
+  background-image: url(https://preview.colorlib.com/theme/counselor/images/bg_1.jpg.webp); background-position: 50% 0%;
+  height: 900px;
+}
+
+.home_header{
+  font-size: 60px;
+  margin-top: 350px;
+  margin-bottom: 30px;
+}
+
+.home_text{
+  margin-top: 0;
+  font-size: 20px;
+}
+
+#home .container{
+  margin-bottom: 200px;
+}
+
+.home_information{
+  background-color: rgb(88,145 ,103 );
+  height: 250px;
+  
+  
+}
+
+.home_information .container{
+  height: 100%;
+}
+
+.info{
+  /* display:inline-block*/
+  float: left;
+  width: 33.3%;
+  padding-top: 25px;
+  height: 100%;
+}
+
+.info_text h3{
+  color: white;
+  font-size: 25px;
+}
+
+.info_icon{
+  width: 25%;
+  float: left;
+}
+
+.info_text{
+  width: 75%;
+  float: right;
+}
+
+.info_text p{
+  color: white;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.info.darker1{
+  background-color:rgb(82,135,96) ;
+  height: 224px;
+
+}
+
+.info.darker2{
+  background-color: rgb(78,129,92);
+  height: 224px;
+}
+
+.info_icon img{
+  width: 70px;
+  display: inline-block;
+  margin-top: 40%;
+  margin-left: 15px;
+}
+
+.info_icon .people{
+  width: 80px;
+  height: 100px;
+}
+
+
+.section_title{
+ text-align: center;
+ margin-top: 220px;
+ color:rgb(78,129,92);
+ font-weight: 600;
+ letter-spacing: 3px;
+}
+
+.section_header{
+  text-align: center;
+  margin: 26px;
+  color: rgb(76,76,76);
+  font-size: 40px;
+  font-weight: 600;
+}
+
+/*Services*/
+
+#services{
+  margin-top: 100px;
+}
+  
+.services{
+    display: inline-block; 
+    width: 33%; 
+    height: 350px;
+    text-align: center;
+    padding: 25px;
+}
+
+.service_img{
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background-color: rgb(245,244,240);
+  padding: 50px;
+  box-sizing: content-box;
+  border-radius: 50%;
+}
+
+.service_img:hover .service_number{
+  background-color: rgb(78,129,92);
+  background-color: rgb(78,129,92);
+  transition: 0.3s;
+}
+
+.service_img:hover{
+  background-color: rgb(78,129,92);
+}
+
+.service_img img{
+  width: 60px;
+  height: 60px;
+  
+}
+
+.service_img:hover img{
+  filter: invert(100%);
+  transition: 0.3s;
+  
+}
+
+.section_title{
+  color: rgb(76,76,76);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.service_text{
+  color: rgb(76,76,76);
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 31px;
+}
+
+.services_card{
+  background-color: rgb(245,244,240);
+  margin-top: 120px;
+  height: 600px;
+}
+
+.services_card .left img{
+  width: 100%;
+  height: 600px;
+}
+
+.services_card .section_title, .service_card .section_header{
+  text-align: left;
+}
+
+.services_card_text{
+  font-size: 17px;
+  line-height: 31px;
+  color: rgb(76,76,76);
+}
+
+.video-link{
+  text-decoration: none;
+  color: rgb(76,76,76);
+  vertical-align: middle;
+  margin-left: 15px;
+}                                   
+
+.fa-youtube{
+  color: rgb(88,145 ,103 );
+  display: inline-block;
+  position: relative;
+  top: 12px;
+
+
+  background: rgba(0,0 ,0 ,3 );
+  animation: waves 3s ease-in-out infinite;
+  animation-delay: 1s
+}
+
+.service_number{
+  background-color: rgb(88,145 ,103 );
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 7px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 5px solid white;
+
+
+  position: relative;
+  left: 70px;
+  bottom:130px;
+}
+
